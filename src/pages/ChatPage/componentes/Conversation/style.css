@@ -1,0 +1,33 @@
+.conversation{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 300px;
+    max-width: calc(100% - 300px);
+    width: 80%;
+    background-color: #363636;
+    height: calc(100vh);
+    padding-bottom: 50px;
+    align-content: flex-start;
+    margin:0;
+    overflow-y: auto;
+}
+.conversation::-webkit-scrollbar, 
+.sidebar::-webkit-scrollbar {
+    width: 10px; /* Largura da barra de rolagem */
+}
+
+.conversation::-webkit-scrollbar-track, 
+.sidebar::-webkit-scrollbar-track {
+    background: #363636; /* Cor da trilha */
+}
+
+.conversation::-webkit-scrollbar-thumb, 
+.sidebar::-webkit-scrollbar-thumb {
+    background: #888; /* Cor do polegar */
+    border-radius: 5px; /* Borda arredondada */
+}
+
+.conversation::-webkit-scrollbar-thumb:hover, 
+.sidebar::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Cor do polegar ao passar o mouse */
+}

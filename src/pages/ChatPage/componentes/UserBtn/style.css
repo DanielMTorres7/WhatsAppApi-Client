@@ -1,0 +1,50 @@
+.user_btn{
+    width: 100%;
+    margin: 5px 0!important;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #202C33;
+    color: #fff;
+    border: none;
+    align-items: center;
+    position: relative;
+}
+.user_btn:hover{
+    background-color: #005c4b;
+    color: #fff;
+}
+
+.user_btn_img span{
+    height: 50px!important;
+    width: 50px!important;
+    border-radius: 50%;
+    background-color: #535353;
+    display: block;
+}
+.user_btn_img{
+    width: 20%;
+    min-width: 60px;
+}
+.user_btn_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+    max-width: calc(100% - 60px);
+} 
+.user_btn_info p{
+    margin: 0;
+    padding: 0;
+}
+.user_btn_pop{
+    position: absolute;
+    background-color: #37ff8a;
+    color: #000000;
+    border-radius: 5px;
+    padding: 0px 7px;
+    z-index: 1;
+    right: 10px;
+}

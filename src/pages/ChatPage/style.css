@@ -1,0 +1,85 @@
+.app{
+  display: flex!important;
+  flex-wrap: wrap;
+}
+.sidebar{
+  width: 20%;
+  min-width: 300px;
+  height: calc(100vh);
+  margin:0;
+  background-color: #202C33;
+  overflow-y: auto;
+}
+
+.client-message, 
+.user-message{
+  color: #fff;
+  word-wrap: break-word;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  display: inline-block;
+  max-width: 80%;
+}
+.client-message p,
+.user-message p{
+  margin: 0;
+}
+.client-message{
+  background-color: #005c4b; 
+  text-align: right;
+  align-self: end;
+}
+.user-message{
+  background-color: #202C33;
+  text-align: left;
+  align-self: start;
+}
+.message{
+  width: 100%;
+  margin: 0!important;
+  display: flex;
+  flex-direction: column;
+}
+
+.hotbar{
+  background-color: #202C33;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed; /* Fixar a barra na parte inferior */
+  bottom: 0;
+  height: 50px;
+  max-width: calc(100% - 300px);
+  width: 80%;
+  right: 0;
+}
+
+.hotbar input{
+  width: 90%;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.hotbar button{
+  background-color: #005c4b;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  width: 10%;
+}
+.hotbar_info{
+  color: #fff;
+  position: fixed;
+  bottom: 50px;
+  text-align: center;
+  max-width: calc(100% - 300px);
+  width: 80%;
+  right: 0;
+  height: 50px;
+}
+
+
